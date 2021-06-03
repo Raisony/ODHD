@@ -32,7 +32,7 @@ python iforest.py --data satimage-2 --seed 1
 ```
 * OC-SVM:
 ```train & test OC-SVM
-python OC-SVM.py --data satimage-2 --seed 1
+python oc-svm.py --data satimage-2 --seed 1
 ```
 * DNN-AE:
 ```train & test DNN-AE
