@@ -30,7 +30,7 @@ def main(data, seed):
     Xtrain = standardization(Xtrain, Xtrain.max(), Xtrain.min())
     Xtest  = standardization(Xtest,Xtest.max(), Xtest.min())
     
-    clf = IsolationForest(random_state = 123, max_samples = 100,).fit(Xtrain)
+    clf = IsolationForest(random_state = seed, max_samples = 100).fit(Xtrain)
     testLabels = ytest
     y_pred = clf.predict(Xtest)
     guessList = 1*(y_pred < 0)
