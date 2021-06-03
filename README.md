@@ -36,7 +36,8 @@ python oc-svm.py --data satimage-2 --seed 1 --kernel rbf
 ```
 * DNN-AE:
 ```train & test DNN-AE
-python DNN.py
+pip install -r requirements_DNN_AE.txt
+python DNN-AE.py
 ```
 
 
