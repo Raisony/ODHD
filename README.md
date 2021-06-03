@@ -30,8 +30,6 @@ python OC-HDC.py --data satimage-2 --seed 1 --level 100 --a 1 --b 1 --epochs 10 
 Our model achieves the following performance:
 
 * test on satimage-2 dataset
-acc, ap, f1, auc
-[0.933, 0.784, 0.872, 0.927]
 
 |       Dataset      |     Accruacy     |     F1-score    |     Average precision     |     ROC-AUC      |
 | ------------------ | ---------------- | --------------- | ------------------------- | ---------------- |
