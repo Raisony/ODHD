@@ -33,8 +33,3 @@ Our model achieves the following performance:
 | ------------------ | ---------------- | --------------- | ------------------------- | ---------------- |
 |     satimage-2     |      93.3%       |      87.2%      |          78.4%            |      92.7%       |
 
-
-## Contributing
-
-
->📋  Pick a licence and describe how to contribute to your code repository. 
