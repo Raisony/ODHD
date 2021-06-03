@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 To try the model(s) in the paper, run this command:
 
-```train
+```train & test OC-HDC
 python OC-HDC.py --data satimage-2 --seed 1 --level 100 --a 1 --b 1 --epochs 10 --lr 5
 ```
 * data: Selected dataset
@@ -22,7 +22,23 @@ python OC-HDC.py --data satimage-2 --seed 1 --level 100 --a 1 --b 1 --epochs 10 
 * level: Quantization level
 * epochs: Retraining iterations
 * lr: Learning rate
-* 
+
+Other baseline detector
+
+```train & test Isolation Forest
+python iforest.py --data satimage-2 --seed 1
+```
+
+```train & test OC-SVM
+python OC-SVM.py --data satimage-2 --seed 1
+```
+
+```train & test DNN-AE
+python DNN.py
+```
+
+
+
 ## Results
 
 Our model achieves the following performance:
