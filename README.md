@@ -10,8 +10,6 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
-
 ## Training & testing
 
 To try the model(s) in the paper, run this command:
@@ -19,11 +17,11 @@ To try the model(s) in the paper, run this command:
 ```train
 python OC-HDC.py --data satimage-2 --seed 1 --level 100 --a 1 --b 1 --epochs 10 --lr 5
 ```
-* data: selected dataset
-* seed: random seed
-* level: quantization level
-* epochs: retraining iterations
-* lr: learning rate
+* data: Selected dataset
+* seed: Random seed
+* level: Quantization level
+* epochs: Retraining iterations
+* lr: Learning rate
 * 
 ## Results
 
