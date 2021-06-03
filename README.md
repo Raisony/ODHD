@@ -25,14 +25,16 @@ python OC-HDC.py --data satimage-2 --seed 1 --level 100 --a 1 --b 1 --epochs 10 
 
 Other baseline detector
 
+* Isolation forest:
+
 ```train & test Isolation Forest
 python iforest.py --data satimage-2 --seed 1
 ```
-
+* OC-SVM:
 ```train & test OC-SVM
 python OC-SVM.py --data satimage-2 --seed 1
 ```
-
+* DNN-AE:
 ```train & test DNN-AE
 python DNN.py
 ```
