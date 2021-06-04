@@ -34,7 +34,7 @@ python iforest.py --data satimage-2 --seed 1
 ```train & test OC-SVM
 python oc-svm.py --data satimage-2 --seed 1 --kernel rbf
 ```
-* DNN-AE: (You may need GPU)
+* DNN-AE: (You may need GPU or CUDA environment like colab)
 ```train & test DNN-AE
 python DNN-AE.py
 ```
