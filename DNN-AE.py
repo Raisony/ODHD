@@ -4,7 +4,6 @@
 import copy
 import math
 import time
-import h5py
 import keras
 import scipy
 import random
