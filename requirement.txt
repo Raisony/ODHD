@@ -1,5 +1,7 @@
+keras
 numpy
 scipy
 pandas
 argparse
+tensorflow==1.15
 scikit-learn==0.22
