@@ -1,5 +1,4 @@
 copy
-h5py
 math
 time
 numpy
@@ -7,5 +6,5 @@ scipy
 pickle
 pandas
 random
-sklearn
 argparse
+scikit-learn==0.22
