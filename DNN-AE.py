@@ -22,8 +22,6 @@ from sklearn import preprocessing
 from scipy.spatial import distance
 from sklearn.externals import joblib
 from os.path import dirname, join as pjoin
-from tensorflow.keras.constraints import max_norm
-from keras.layers.normalization import BatchNormalization
 from keras.layers import Input, Conv1D, MaxPool1D, UpSampling1D, Dropout
 from sklearn.metrics import mean_squared_log_error, mean_squared_error, mean_absolute_error
 from sklearn.metrics import accuracy_score, roc_auc_score, average_precision_score, f1_score
