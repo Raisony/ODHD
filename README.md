@@ -1,6 +1,6 @@
 # OC-HDC
 
-This repository is the official implementation of [OC-HDC: One-Class Hyperdimensional Computing for Outlier Detection](https://openreview.net/attachment?id=jUG3DQhUHve&name=pdf). 
+This repository is the official implementation of ODHD: One-Class Brain-Inspired Hyperdimensional Computing for Outlier Detection 
 
 ## Requirements
 
