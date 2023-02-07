@@ -15,7 +15,7 @@ pip install -r requirements.txt
 To try the model(s) in the paper, run this command:
 
 ```train & test OC-HDC
-python OC-HDC.py --data satimage-2 --seed 1 --level 100 --a 1 --b 1 --epochs 10 --lr 5
+python ODHD.py --data satimage-2 --seed 1 --level 100 --a 1 --b 1 --epochs 10 --lr 5
 ```
 * data: Selected dataset
 * seed: Random seed
