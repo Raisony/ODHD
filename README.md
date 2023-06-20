@@ -1,4 +1,4 @@
-# OC-HDC
+# ODHD
 
 This repository is the official implementation of ODHD: One-Class Brain-Inspired Hyperdimensional Computing for Outlier Detection 
 
